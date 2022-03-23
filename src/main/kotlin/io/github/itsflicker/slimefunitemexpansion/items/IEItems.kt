@@ -169,7 +169,7 @@ object IEItems {
         SlimefunUtils.getCustomHead("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTNiMjI4ZjcwYTM1ZDBhYTMyMzUwNDY3ZDllOGMwOWFhZTlhZTBhZTA4NzVmZGM4YzMxMWE4NzZiZTE5MDcxNyJ9fX0="),
         "§a生长核心"
     )
-    val ARTIFICIAL_DRAGON_BREATH = SlimefunItemStack("ARTIFICIAL_DRAGON_BREATH", Material.DRAGON_BREATH, "人造龙息")
+    val ARTIFICIAL_DRAGON_BREATH = SlimefunItemStack("ARTIFICIAL_DRAGON_BREATH", Material.DRAGON_BREATH, "&d人造龙息")
     val ORIGINAL_MOB_MATERIAL =
         SlimefunItemStack("ORIGINAL_MOB_MATERIAL", buildItem(XMaterial.SNOWBALL) { shiny() }, "&6原始怪物物质", "&b在血夜时击杀怪物有25%几率掉落")
     val VILLAGER_BOOK = SlimefunItemStack("VILLAGER_BOOK", Material.BOOK, "§a§l村民交易之书", "用于和村民交换稀有附魔书")
