@@ -450,7 +450,6 @@ object ItemRegisterTask {
         )
 
         // FlickerRealm 专属物品
-        if (Bukkit.getServer().pluginManager.isPluginEnabled("Flicker")) {
             IEItems.SHIT.regNonPlaceableItem(IEItems.IE_FOOD_STUFF, RecipeType.NULL, arrayOf())
             IEItems.JIN_KE_LA.regItem(IEItems.IE_MISC_STUFF, RecipeType.NULL, arrayOf())
             IEItems.GROW_CORE.regNonPlaceableItem(
@@ -491,4 +490,3 @@ object ItemRegisterTask {
             )
         }
     }
-}
